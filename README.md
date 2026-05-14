@@ -136,7 +136,6 @@ dreg -sequence ../5bedtools.getfasta.output.fa -pattern GCGC..GCGC -outfile 6nrf
 **Tool:** Python script (`7dreg_to_bed_for_intersect.py`)
 
 ```bash
-ln -s ../4bedtools.slop.output.bed 4bedtools.slop.output.bed
 python 7dreg_to_bed_for_intersect.py
 ```
 
