@@ -152,7 +152,7 @@ bedtools intersect -a ../4bedtools.slop.output.bed -b 8nrf1_hits.bed -wa -u > 8n
 **Output:** `10genes_with_nrf1.txt`
 
 ```bash
-cut -f4 8.1nrf1_genes_intersected.bed | sed 's/.*|//' | sort -u > 10.1genes_with_nrf1.txt
+cut -f4 9nrf1_genes_intersected.bed | sed 's/.*|//' | sort -u > 10genes_with_nrf1.txt
 ```
 
 #### Step 8A: Gene Ontology enrichment
