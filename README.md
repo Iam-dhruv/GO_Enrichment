@@ -13,7 +13,7 @@ genes and then look at their biological functions.
 
 You will need the following datasets to do the project.
 
-- [Human genome](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/), search for `hg38.fa.gz` and download
+- [Human genome](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/), search for `hg38.fa.gz` and 'hg38.chrom.sizes' and download
 
 - Dreg from [EMBOSS](https://anaconda.org/bioconda/emboss)
 
