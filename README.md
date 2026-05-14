@@ -224,14 +224,4 @@ cut -f4 9nrf1_genes_intersected.bed | sed 's/.*|//' | sort -u > 10genes_with_nrf
 Rscript final_script.R
 ```
 
-## Summary
 
-The pipeline identifies genes regulated by NRF1 transcription factor and characterizes their biological roles through:
-1. Genomic coordinate mapping (TSS → promoter regions)
-2. Sequence extraction and motif detection (DREG or FIMO)
-3. Gene-region mapping (bedtools intersect)
-4. Functional enrichment (clusterProfiler in R)
-
-This reveals that NRF1 preferentially regulates genes involved in mitochondrial biogenesis and energy metabolism, confirming known NRF1 biology.   
-# GO_Enrichment
-# GO_Enrichment
